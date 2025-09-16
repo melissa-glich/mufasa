@@ -1,34 +1,26 @@
-<!-- cart.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Your Cart - Mufasa</title>
-  <link rel="stylesheet" href="./src/public/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mufasa 🦁 - Shop</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="gallery.html">Gallery</a>
-    <a href="shop.html">Shop</a>
     <a href="contact.html">Contact</a>
     <a href="cart.html">Cart 🛒</a>
   </nav>
 
-  <main>
-    <h1>Your Cart 🛒</h1>
-    <div id="cart-container">
-      <ul id="cart-items"></ul>
-      <div id="cart-summary">
-        <p id="cart-total">Total: Ksh 0</p>
-        <a id="checkout-link" href="checkout.html"><button>Proceed to Checkout</button></a>
-        <button id="clear-cart">Clear Cart</button>
-      </div>
-    </div>
-  </main>
+  <h1>Our Products</h1>
+  <div id="products"></div>
 
-  <script src="./src/pages/cart.js"></script>
+  <h2>Your Cart</h2>
+  <div id="cart"></div>
+
+  <script src="assets/cart.js"></script>
 </body>
 </html>

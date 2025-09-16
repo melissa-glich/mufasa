@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Lion Plush Toy",
+    "price": 1200,
+    "image": "assets/images/lion-plush.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mufasa T-Shirt",
+    "price": 1800,
+    "image": "assets/images/mufasa-shirt.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Savannah Mug",
+    "price": 900,
+    "image": "assets/images/mug.jpg"
+  }
+]
