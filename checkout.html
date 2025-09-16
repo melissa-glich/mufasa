@@ -1,0 +1,44 @@
+<!-- checkout.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checkout - Mufasa</title>
+  <link rel="stylesheet" href="./src/public/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="cart.html">Cart 🛒</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h1>Checkout</h1>
+
+    <form id="checkout-form" action="https://formspree.io/f/mnnbwpob" method="POST">
+      <label for="customer-name">Full name</label>
+      <input id="customer-name" name="name" required>
+
+      <label for="customer-email">Email</label>
+      <input id="customer-email" type="email" name="email" required>
+
+      <label for="customer-phone">Phone (optional)</label>
+      <input id="customer-phone" name="phone">
+
+      <label for="order-details">Order (auto-filled)</label>
+      <textarea id="order-details" name="order" readonly rows="6"></textarea>
+
+      <input type="hidden" id="order-total" name="total">
+
+      <button type="submit">Send Order</button>
+    </form>
+
+    <p id="checkout-msg" style="display:none;">Order sent! You will get an email confirmation.</p>
+  </main>
+
+  <script src="./src/pages/checkout.js"></script>
+</body>
+</html>
