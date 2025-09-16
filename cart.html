@@ -3,38 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mufasa 🦁 - Shop</title>
+  <title>Your Cart</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header>
-    <h1>Mufasa 🦁 Store</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
-      <a href="cart.html">Shop</a>
-      <a href="checkout.html">Checkout</a>
-    </nav>
-  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart 🛒</a>
+  </nav>
 
-  <main class="container">
-    <section class="products-section">
-      <h2>Our Products</h2>
-      <div id="products" class="products-grid"></div>
-    </section>
+  <h1>Your Shopping Cart</h1>
 
-    <aside class="cart-section">
-      <h2>Your Cart 🛒</h2>
-      <div id="cart"></div>
-    </aside>
-  </main>
+  <div id="cart-container">
+    <ul id="cart-items"></ul>
+    <h2 id="cart-total">Total: $0</h2>
+  </div>
 
-  <footer>
-    <p>&copy; 2025 Mufasa Store. All Rights Reserved.</p>
-  </footer>
-
-  <script src="assets/cart.js"></script>
+  <script src="assets/script.js"></script>
 </body>
 </html>
