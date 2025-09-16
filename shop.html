@@ -1,27 +1,44 @@
-<!-- shop.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mufasa Shop</title>
-  <link rel="stylesheet" href="./src/public/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mufasa 🦁 - Shop</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="gallery.html">Gallery</a>
-    <a href="shop.html">Shop</a>
     <a href="contact.html">Contact</a>
-    <a href="cart.html">Cart 🛒</a>
+    <a href="shop.html">Shop</a>
+    <a href="cart.html">Cart</a>
   </nav>
 
-  <main>
-    <h1>Mufasa Shop</h1>
-    <div id="products" class="products-grid"></div>
-  </main>
+  <h1>Shop Our Products</h1>
 
-  <script src="./src/pages/shop.js"></script>
+  <section class="products-grid">
+    <div class="product-card">
+      <img src="assets/images/product1.jpg" alt="Product 1">
+      <h3>Product 1</h3>
+      <p class="price">$20</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/images/product2.jpg" alt="Product 2">
+      <h3>Product 2</h3>
+      <p class="price">$35</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/images/product3.jpg" alt="Product 3">
+      <h3>Product 3</h3>
+      <p class="price">$50</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
 </body>
 </html>
