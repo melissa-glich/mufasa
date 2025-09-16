@@ -7,19 +7,33 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-    <a href="cart.html">Cart 🛒</a>
-  </nav>
+  <header>
+    <h1>Mufasa 🦁 Store</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Shop</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
 
-  <h1>Our Products</h1>
-  <div id="products"></div>
+  <main class="container">
+    <section class="products-section">
+      <h2>Our Products</h2>
+      <div id="products" class="products-grid"></div>
+    </section>
 
-  <h2>Your Cart</h2>
-  <div id="cart"></div>
+    <aside class="cart-section">
+      <h2>Your Cart 🛒</h2>
+      <div id="cart"></div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mufasa Store. All Rights Reserved.</p>
+  </footer>
 
   <script src="assets/cart.js"></script>
 </body>

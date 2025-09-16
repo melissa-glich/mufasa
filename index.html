@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mufasa 🦁 - Home</title>
+  <!-- Link the external CSS -->
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -12,12 +13,36 @@
     <a href="about.html">About</a>
     <a href="gallery.html">Gallery</a>
     <a href="contact.html">Contact</a>
-    <a href="cart.html">Cart 🛒</a>
+    <a href="shop.html">Shop</a>
+    <a href="cart.html">Cart</a>
+    <a href="checkout.html">Checkout</a>
   </nav>
 
   <h1 id="headline">Welcome to Mufasa 🦁</h1>
   <button id="roarButton">Hear Me Roar</button>
 
-  <script src="assets/Home.js"></script>
+  <!-- Example Products Grid -->
+  <section class="products-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Product 1">
+      <h3>Product 1</h3>
+      <p class="price">$10.00</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Product 2">
+      <h3>Product 2</h3>
+      <p class="price">$15.00</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Product 3">
+      <h3>Product 3</h3>
+      <p class="price">$20.00</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="./src/pages/Home.js"></script>
 </body>
 </html>
